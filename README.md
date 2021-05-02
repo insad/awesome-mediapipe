@@ -15,9 +15,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/m
 - [Awesome MediaPipe](#awesome-mp)
     - [Desktop examples](#desktop-examples)
     - [Android examples](#android-examples)
-    - [iOS examples](#ios-examples)
+    - [iOS examples](#ios)
+    - [Myriad X Vision Proocessing Unit](#myriad-x-vpu)
+    - [Unity examples](#unity)
     - [Cloud examples](#cloud-examples)
-    - [TensorFlow and TFlite related](#tensorflow-and-tflite-related)
+    - [TensorFlow and TFlite related](#tensorflow-and-tfllite-related)
     - [Python related](#python-related)
     - [Pytorch related](#pytorch-related)
     - [Sign language hand gesture related](#sign-language-hand-gesture-related)
@@ -39,6 +41,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/m
 
 * [Connecting openFrameworks to Google MediaPipe Machine Learning Framework over UDP](https://github.com/madelinegannon/example-mediapipe-udp)
 
+* [Sign gesture recognition with Mediapipe](https://github.com/nodamu/sign-language-recogntion)
+
+* [MediaPipe Python examples using WebRTC based OSSDC VisionAI platform](https://github.com/OSSDC/OSSDC-VisionAI-Core/blob/master/video_processing_mediapipe.py)
+
 ## Android examples
 
 *Android examples.*
@@ -51,18 +57,44 @@ Please take a quick gander at the [contribution guidelines](https://github.com/m
 
 * [Kotlin port of running MediaPipe hand tracking example](https://github.com/machidyo/MediaPipeHandTracking)
 
-## iOS examples
+## iOS
 
 *iOS examples.*
 
 * [Tutorial to create an importable iOS framework: Find memes that match your facial expression 😮](https://medium.com/@powderapp/mediapipe-tutorial-find-memes-that-match-your-facial-expression-9bf598da98c0)
+
+* [How to build MediaPipe hand tracking (iOS) as an Xcode project](https://qiita.com/ponte1010/items/ed10cb2b5dcf7579f9bc)
+
+## Myriad X VPU
+
+*DepthAI cameras examples.*
+
+* [Hand tracking with DepthAI](https://github.com/geaxgx/depthai_hand_tracker)
+
+* [MediaPipe hands tracking on DepthAI camera through OSSDC VisionAI on WebRTC video stream from Android phone](https://www.youtube.com/watch?v=CdvpjKfNUWw)  
+
+## Unity
+
+* [Unity hand tracking with MediaPipe](https://github.com/TesseraktZero/UnityHandTrackingWithMediapipe)
+
+* [Unity MediaPipe Plugin](https://github.com/homuler/MediapipeUnityPlugin)
+
+### frameworks
+
+*iOS frameworks.*
+
+* [Prebuilded framework for upper body pose tracker](https://github.com/noppefoxwolf/UpperBodyPoseTracker)
+
+* [Prebuilded framework for hand tracker](https://github.com/noppefoxwolf/HandTracker)
 
 ## Cloud examples
 
 *Cloud examples.*
 
 * [How to install MediaPipe on GPU instance in Amazon EC2.](https://dev.classmethod.jp/articles/mediapipe-install-on-aws-ec2-with-gpu-english/)
-
+ 
+* [MediaPipe Holistic running in Google Colab on WebRTC video stream from Android phone](https://www.youtube.com/watch?v=0l9Bb5IC86E)
+    - [Google Colab to reproduce this demo in less than 5 min](https://colab.research.google.com/github/OSSDC/OSSDC-VisionAI-Core/blob/master/OSSDC_VisionAI_demo_reel.ipynb) 
 
 ## TensorFlow and TFllite related
 
@@ -75,6 +107,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/m
 
 *Python.*
 
+* [MediaPipe Holistic running in Google Colab on WebRTC video stream from Android phone](https://www.youtube.com/watch?v=0l9Bb5IC86E)
+    - [Google Colab to reproduce this demo in less than 5 min](https://colab.research.google.com/github/OSSDC/OSSDC-VisionAI-Core/blob/master/OSSDC_VisionAI_demo_reel.ipynb) 
+
 ## Flutter related
 
 * [Flutter package for MediaPipe Hand tracking example to generate both iOS and Android apps](https://github.com/zhouzaihang/flutter_hand_tracking_plugin)
@@ -84,8 +119,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/m
 *Pytorch examples.*
 
 ## Sign language hand gesture related
+* [Sign Language Gesture Recognition Android](https://github.com/nodamu/sign-language-recogntion-android)
 
-* [Sign language gesture recognition using a reccurent neural network(RNN) with Mediapipe hand tracking](https://github.com/rabBit64/Sign-language-recognition-with-RNN-and-Mediapipe)
+* [Sign language gesture recognition using a recurrent neural network (RNN) with Mediapipe hand tracking](https://github.com/rabBit64/Sign-language-recognition-with-RNN-and-Mediapipe)
+
+* [SigNN - American sign language alphabet translation](https://github.com/AriAlavi/SigNN)
 
 * [System for recognizing signs of the german sign language (DGS) from live webcam](https://github.com/Tachionstrahl/SignLanguageRecognition)
 
@@ -104,8 +142,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/m
 
 ## Websites
 
-*Add any related websites (send **PR**)*
+* [3D Web Hands with MediaPipe + tf.js](https://glitch.com/edit/#!/3dweb-hands?path=README.md%3A1%3A0)
+* [Handsfree.js.org](https://handsfree.js.org) - A wrapper library around MediaPipe with a plugin system for quickly creating and sharing handsfree user experiences. Features detailed guides and documentation, integrations and boilerplates, chrome extensions, and more
 
 ### Tutorials
+
+* [Creating Calculators, Beyond the Documentation](https://codeburst.io/creating-calculators-in-mediapipe-beyond-the-documentation-83e1883b91a?source=friends_link&sk=0428794f27a1e7d62cdd0726fdc5eb62) - Read this after reading the documentation by students at UC Satna Barbara
 
 * [MediaPipe with Custom tflite Model](https://blog.gofynd.com/mediapipe-with-custom-tflite-model-d3ea0427b3c1?gi=34cdb896bc94) - Getting started tutorial by engineers at Indian startup Fynd
